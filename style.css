@@ -100,16 +100,36 @@ CUNDO LO HAGO PEQUEÑO*/
     max-width: 63%;
 }
 
+
 .box {
-    width: 70%px;
-    height: 100px;
+    width: 70px;
+    height: 100%;
     background-color: lightblue;
 }
 .box2 {
+    font-size: smaller;
+    width: 100%;
+    height: 100px;
+    background-image: url("bgimg.jpg");
+    
+}
+.box3 {
+    font-style: smaller;
+    flex-direction: row;
     width: 70%px;
     height: 100px;
     background-color: white;
+    margin-left: 10px;
 }
+
+.box4 {
+    font-size: smaller;
+    width: 100%;
+    height: 100px;
+    background-image: url("bgimg.jpg");
+    margin-left: 10%;
+}
+
 
 .mywork {
     display: flex;
@@ -160,11 +180,11 @@ CUNDO LO HAGO PEQUEÑO*/
 
 
 .amcontent:hover,
-.mwcontent:hover, .cmcontent:hover {
+.container:hover, .cmcontent:hover {
   box-shadow: inset 0px 0px 8px rgb(230, 70, 94);
 }
 
-.amcontent, .cmcontent,.mwcontent {  
+.amcontent, .cmcontent,.container {  
   box-shadow: 5px 5px 5px #aaaaaa;
   
 }

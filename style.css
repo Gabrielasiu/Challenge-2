@@ -2,26 +2,53 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 header {
     background-color: rgba(192, 242, 192, 0.707);
     padding: 20px;
     
-
+/* COMO PONER LAS LETRAS AZULES Y SIN EL SUBRAYADO DE HIUPERVINCULO
+YA LO HE HECHO PERO NO ME ACUERDO COMO*/
 }
 
 nav {
     padding-top: 15px;
     margin-right: 20px;
     float: inline-end;
-    display: inline;
-    color: aliceblue;
     margin-bottom: 20px;
 
 }
 
+.bg-image {
+    background-image: url(./img.webp);
+    width: 100%;
+   height: 200px;
+}
+
+h2 { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #7fffd4;
+    align-items: center;
+    position: relative;
+    padding-top: 30px;
+    font-size:xx-large;
+    
+}
+
+p{
+    float: inline-end;
+    padding-right: 20px;
+    width: 40%0;
+
+    /*ves hermosa ya vas podiendo poco a poco; 
+    ya entendiste lo de width, lo de padding y como realizar el diseño;
+    poco a poco */
+}
 
 
 
@@ -29,10 +56,10 @@ nav {
 QUE HAGA. Esto que puse abajo es lo que usé en el mini project y lo usaré como base*/
 :root {
     --main-color: rgb(222, 104, 124); 
-    --bg-main-color:  rgb(19, 19, 47);
+    --bg-main-color:  
     }
     body {
-        background-color: rgb(19, 19, 47);
+        
         
     }
     
@@ -77,3 +104,10 @@ QUE HAGA. Esto que puse abajo es lo que usé en el mini project y lo usaré como
         padding: 3px;
         
     }
+
+    /*YA ENTENDI COMO SE DIVIERON LAS CLASES EN EL SCRIPT;
+    .CARD ES EN TOTAL TODA LA TARJETITA; QUE ES PUNTEADA, Y ES EN COLUMNA;
+    CARD HEADER ES LITERAL EL TITOLO QUE DICE FLEX BOX EN ESTE CASO 
+    Y SE LE PONE -22 PORQUE EN ESTE CASO DEBE DE ESTAR POR FUERAA DE  CARD ETC ETC
+  */
+  

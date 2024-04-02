@@ -1,3 +1,7 @@
+:root {
+    --encabezados: #7fffd4;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -32,7 +36,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #7fffd4;
+    color: var(--encabezados);
     align-items: center;
     position: relative;
     padding-top: 30px;
@@ -40,17 +44,23 @@ h2 {
     
 }
 
-p{
+p {
     float: inline-end;
     padding-right: 20px;
-    width: 40%0;
+    width: 40%;
 
     /*ves hermosa ya vas podiendo poco a poco; 
     ya entendiste lo de width, lo de padding y como realizar el diseño;
     poco a poco */
 }
 
+.my-work {
+    color: var(--encabezados);
+}
 
+.contact {
+    color: var(--encabezados);
+}
 
 /*LO QUE USÉ EN EL MINI PROJECT SERÁ UTILIZADO EN LA SECTION DE "MY WORK"
 QUE HAGA. Esto que puse abajo es lo que usé en el mini project y lo usaré como base*/

@@ -86,8 +86,7 @@ CUNDO LO HAGO PEQUEÑO*/
     border-radius:20px;
     padding: 10px;
     background: linear-gradient(45deg,  rgba(234, 158, 171, 0.26), rgb(230, 70, 94));
-        flex: 0 0 50%;
-        max-width: 75%;
+    max-width: 63%;
 }
 
 .mywork {
@@ -110,6 +109,7 @@ CUNDO LO HAGO PEQUEÑO*/
     border-radius:20px;
     padding: 10px;
     background: linear-gradient(45deg,  rgba(234, 158, 171, 0.26), rgb(230, 70, 94));
+    max-width: 63%;
 }
 
 .Contactme {
@@ -132,6 +132,7 @@ CUNDO LO HAGO PEQUEÑO*/
     margin-top: 10px;
     border-radius:20px;
     padding: 10px;
+    max-width: 63%;
     background: linear-gradient(45deg,  rgba(234, 158, 171, 0.26), rgb(230, 70, 94));
 }
 

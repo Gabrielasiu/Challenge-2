@@ -98,6 +98,7 @@ CUNDO LO HAGO PEQUEÑO*/
     padding: 10px;
     background: linear-gradient(45deg,  rgba(234, 158, 171, 0.26), rgb(230, 70, 94));
     max-width: 63%;
+    
 }
 
 
@@ -109,15 +110,15 @@ CUNDO LO HAGO PEQUEÑO*/
 .box2 {
     font-size: smaller;
     width: 100%;
-    height: 100px;
+    height: 200px;
     background-image: url("bgimg.jpg");
     
 }
 .box3 {
     font-style: smaller;
-    flex-direction: row;
-    width: 70%px;
-    height: 100px;
+    flex-direction: column;
+    width: 70%;
+    height: 200px;
     background-color: white;
     margin-left: 10px;
 }
@@ -125,9 +126,10 @@ CUNDO LO HAGO PEQUEÑO*/
 .box4 {
     font-size: smaller;
     width: 100%;
-    height: 100px;
-    background-image: url("bgimg.jpg");
+    height: 200px;
+    background-color: aqua;
     margin-left: 10%;
+    margin-right: 10%;
 }
 
 
@@ -145,7 +147,7 @@ CUNDO LO HAGO PEQUEÑO*/
 
 .mwcontent {
     display: flex;
-    width: 70%;
+    width: 100%;
     margin-left: 35%;
     margin-top: 10px;
     border-radius:20px;
@@ -179,14 +181,17 @@ CUNDO LO HAGO PEQUEÑO*/
 }
 
 
-.amcontent:hover,
-.container:hover, .cmcontent:hover {
+.amcontent:hover, .cmcontent:hover {
   box-shadow: inset 0px 0px 8px rgb(230, 70, 94);
 }
 
 .amcontent, .cmcontent,.container {  
   box-shadow: 5px 5px 5px #aaaaaa;
   
+}
+
+.box2:hover, .box3:hover, .box4:hover, .box {
+    box-shadow: inset 0px 0px 8px rgb(230, 70, 94);
 }
 
 @media screen and (max-width: px) {

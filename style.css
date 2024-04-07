@@ -87,7 +87,6 @@ header {
 }
 
 .amcontent {
-   
     width: 70%;
     margin-left:10%;
     margin-top: 10px;
@@ -95,6 +94,7 @@ header {
     padding: 10px;
     background: linear-gradient(45deg,  rgba(234, 158, 171, 0.26), rgb(230, 70, 94));
     max-width: 63%;
+
 }
 
 .container {
@@ -157,7 +157,12 @@ header {
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 15px;}
-   
+
+
+.box5:hover{
+        background-color: whitesmoke;
+        transition-duration: 0.4s;
+}
 
 .mywork {
     display: flex;
@@ -200,8 +205,9 @@ header {
   
 }
 
-.box2:hover, .box3:hover, .box4:hover, .box5:hover{
+.box2:hover, .box3:hover, .box4:hover/*.box5:hover*/{
     box-shadow: inset 0px 0px 8px rgb(230, 70, 94);
+    transition-duration: 0.4s;
 }
 
 @media screen and (max-width: 680px) {

@@ -100,7 +100,7 @@ header {
     padding: 10px;
     background: linear-gradient(45deg,  rgba(234, 158, 171, 0.26), rgb(230, 70, 94));
     max-width: 100%;
-    
+
    }
     
 
@@ -227,6 +227,10 @@ header {
     .contactme{
         flex-direction: column;
     }
+  }
+
+  .button3 {
+    margin-left: 5px;
   }
 
 

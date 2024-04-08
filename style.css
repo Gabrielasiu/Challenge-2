@@ -62,7 +62,7 @@ header {
  }
 
 .subtitle {
-    background-image: url("bgimg.jpg");
+    background-image: url("/img/bgimg.jpg");
     width: 100%;
     padding: 20px;
     color: white;
@@ -110,7 +110,7 @@ header {
     background-color: lightblue;
 }
 .box2 {
-    background-image: url("github.png");
+    background-image: url("/img/github.png");
     font-size: 20px;
     width: 130px;
     height: 100px;
@@ -120,7 +120,7 @@ header {
 }
 .git, .app, .pre  {
     background-color: white;
- color:rgb(227, 50, 79);
+ color:rgb(207, 130, 143);
 }
 
 
@@ -134,7 +134,7 @@ header {
     border-radius: 15px;
     align-content: end;
     text-align: center;
-    background-image: url(firstapp.png);
+    background-image: url(/img/firstapp.png);
     background-repeat::after;
 
 }
@@ -161,7 +161,7 @@ header {
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 15px;
-    background-image: url(prework.png);
+    background-image: url(/img/prework.png);
 }
 .box5:hover{
         background-color: whitesmoke;

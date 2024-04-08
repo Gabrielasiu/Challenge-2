@@ -134,22 +134,10 @@ header {
     border-radius: 15px;
     align-content: end;
     text-align: center;
-    background-image: url(firstapp.png);
+    background-image: url("firstapp.png");
     background-repeat::after;
 
 }
-/*
-.box4 {
-    font-size: 20px;
-    width: 300px;
-    height: 400Spx;
-    background-color: rgb(198, 82, 101);  
-    border-radius: 15px;
-    align-content:center;
-    text-align: center;
-   
-}
-*/
 .box5 {
     font-size: 20px;
     width: 300px;
@@ -161,7 +149,7 @@ header {
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 15px;
-    background-image: url(prework.png);
+    background-image: url("prework.png");
 }
 .box5:hover{
         background-color: whitesmoke;
@@ -213,7 +201,7 @@ header {
   
 }
 
-.box2:hover, .box3:hover, .box5:hover/*.box5:hover*/{
+.box2:hover, .box3:hover, .box5:hover{
     box-shadow: inset 0px 0px 8px rgb(230, 70, 94);
     transition-duration: 0.4s;
 }

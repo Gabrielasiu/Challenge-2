@@ -7,6 +7,6 @@ see the evolution of my work and skills.
 On this website, employers will be able to see flexbox, background images,
 screen media queries, buttons and more.
 Also, the styling of containers, UI scrolls and others skills on HTML and CSS. 
+You can see my deployed website ---> https://gabrielasiu.github.io/Challenge-2/ 
 
 ![Challenge-2](image.png)
-You can see my deployed website ---> https://gabrielasiu.github.io/Challenge-2/ 

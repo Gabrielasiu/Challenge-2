@@ -9,3 +9,4 @@ screen media queries, buttons and more.
 Also, the styling of containers, UI scrolls and others skills on HTML and CSS. 
 
 ![Challenge-2](image.png)
+You can see my deployed website ---> https://gabrielasiu.github.io/Challenge-2/ 

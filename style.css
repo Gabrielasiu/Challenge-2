@@ -156,6 +156,30 @@ header {
         transition-duration: 0.4s;
 }
 
+.box6{
+    font-size: 20px;
+    width: 300px;
+    height: 400Spx;
+    border-radius: 15px;
+    align-content:end;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    background-image:url(project.png) ;
+    
+}
+.box6:hover
+{
+        background-color: whitesmoke;
+        transition-duration: 0.4s;
+}
+
+a.project{
+    color: rgb(226, 123, 140);
+    background-color: white;
+}
+
 .mywork {
     display: flex;
     font-size: 20px;

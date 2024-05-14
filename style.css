@@ -166,7 +166,7 @@ header {
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 15px;
-    background-image:url(project.png) ;
+    background-image:url("project.png") ;
     
 }
 .box6:hover
